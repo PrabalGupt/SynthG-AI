@@ -1,0 +1,147 @@
+.centered-heading {
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+
+h2.centered-heading {
+  margin-top: 60px;
+}
+
+.input-container{
+  display: flex;
+  position: relative;
+}
+
+.input-container-submit {
+  display: flex;
+  margin: 0 7.5vw;
+  height: 40px;
+  background-color: #302A3B;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.input-prompt-holder{
+  display: block;
+  width: 50vw;
+  align-items: center;
+  height: 35px;
+  background-color: #302A3B;
+  border-radius: 10px;
+  color: white;
+  overflow-wrap: break-word
+}
+
+.prompt-submit{
+  display: block;
+  margin-left: 1vw;
+  margin: 7px;
+}
+
+.youtube-url-input {
+  display: block;
+  margin: 60px auto;
+  width: calc(600px - 24px);
+  /* Adjusted width to accommodate the padding */
+  padding: 20px;
+  border-radius: 1rem;
+  background: transparent !important;
+  color: white;
+  border: 0.5px solid #8D71DC;
+}
+
+.gradient {
+  position: absolute;
+  width: 786.733px;
+  height: 827.179px;
+  transform: rotate(-89.954deg);
+  border-radius: 827.179px;
+  border: 1px solid #000;
+  background: rgba(85, 62, 177, 0.80);
+  filter: blur(300px);
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+}
+
+.video-url {
+  display: block;
+  margin: 10px auto;
+  width: 60vw;
+  text-align: center;
+}
+
+.youtube-redirect {
+  color: rgb(223, 223, 223);
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-size: small;
+  margin-left: 20vw;
+}
+
+.transcript-container {
+  margin-top: 20px;
+}
+
+.transcript-paragraph {
+  margin-bottom: 10px;
+}
+
+.suggested {
+  cursor: pointer
+}
+
+.video-question {
+  width: 50vw;
+  background-color: #130629;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 1vw;
+}
+
+.video-answer {
+  width: 50vw;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #35145F;
+  border: 3px solid #4611DB;
+  margin-left: 7.5vw;
+}
+
+.suggested-questions {
+  display: block;
+  background-color: #130629;
+  width: 45vw;
+  margin: 20px auto 60vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.video-chat-container {
+  background-color: #645F6B;
+  width: 60vw;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 10px 0;
+}
+
+.error-message{
+  margin-left: 20vw;
+}
+
+/* .text-bar{
+  margin-top: 60vh;
+} */
+
+.list-none{
+  list-style: none;
+}

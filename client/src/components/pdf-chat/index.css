@@ -1,0 +1,118 @@
+#root {
+    width: 100%;
+}
+
+.upload-pdf-box {
+    border: 5px dashed white;
+    border-radius: 50px;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    margin-top: 60px;
+    transition: background-color 0.5s ease;
+}
+
+.upload-pdf-text {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.upload-pdf-box:hover {
+    border: 5px solid #f5f5f5;
+}
+
+.upload-pdf-icon {
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upload-pdf-button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #5A5151;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    transition: background-color 0.5s ease;
+}
+
+.upload-pdf-button:hover {
+    background-color: #f5f5f5;
+    color: #5A5151;
+}
+
+.pdf-chat-box{
+    display: flex;
+    margin-top: 20px;
+    width: 45vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.pdf-viewer{
+    background-color: red;
+    width: 100%;
+    height: 70vh;
+    margin-right: 50px;
+}
+
+.chat-with-pdf-dialogue{
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.chat-with-pdf-dialogue-heading{
+    margin-top: -20px;
+}
+
+.chat-with-pdf-dialogue-subheading{
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.chat-container{
+    color: white;
+}
+
+.chat-question{
+    width: 30vw;
+    background-color: #5A5151;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1vw;
+}
+
+.chat-answer{
+    width: 30vw;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5vw;
+    background-color: #35145F;
+    border: 3px solid #4611DB;
+}
+
+.qa-item{
+    width: 80vw;
+    margin: auto;
+}
+
+.chat-page{
+    margin: 50px auto;
+}

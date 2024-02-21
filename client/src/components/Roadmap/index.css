@@ -1,0 +1,87 @@
+.roadmap {
+    color: white;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.roadmap-heading {
+    text-align: center;
+}
+
+.roadmap-subheading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.input-container-submit {
+    display: flex;
+    margin: 0 20vw;
+    height: 40px;
+    width: 40vw;
+    background-color: #302A3B;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.input-prompt-holder {
+    display: block;
+    width: 40vw;
+    align-items: center;
+    height: 35px;
+    background-color: #302A3B;
+    border-radius: 10px;
+    color: white;
+    overflow-wrap: break-word
+}
+
+.prompt-submit {
+    display: block;
+    margin-left: 1vw;
+    margin: 7px;
+}
+
+.roadmap-instructions-image{
+    margin: 60px auto;
+}
+
+.roadmap-container{
+    display: flex;
+    margin: 50px auto;
+}
+
+.roadmap-container-first, .roadmap-container-third{
+    width: 30vw;
+}
+
+.ikimaka1{
+    width: 26vw;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.ikimaka2{
+    width: 26vw;
+    border-radius: 20px;
+    margin-top: 170px;
+}
+
+.ikimaka3{
+    width: 26vw;
+    border-radius: 20px;
+    margin-top: 180px;
+}
+
+.ikimaka4{
+    width: 26vw;
+    border-radius: 20px;
+    margin-top: 180px;
+}
+
+.ikimaka5{
+    width: 26vw;
+    border-radius: 20px;
+    margin-top: 180px;
+}

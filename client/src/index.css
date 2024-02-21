@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.var{
+  --color1: #723EB1;
+  --color2: #181020;
+}
+
+.white{
+  color: white;
+  text-decoration: none;
+}
+html{
+  background-color: #07030F;
+}
+/* .gradient1 {
+    position: absolute;
+    width: 786.733px;
+    height: 827.179px;
+    transform: rotate(-89.954deg);
+    border-radius: 827.179px;
+    border: 1px solid #000;
+    background: rgba(85, 62, 177, 0.80);
+    filter: blur(300px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */ */
+.gradient2 {
+  opacity: 0.8;
+  width: 400px;
+  height: 150px;
+  border-radius: 9999px;
+  filter: blur(87px);
+  background-color: #723EB1;
+  position: absolute;
+  left: -20%;
+  top: 45%;
+}
+.gradient3 {
+  opacity: 0.8;
+  width: 390px;
+  height: 290px;
+  border-radius: 9999px;
+  filter: blur(70px);
+  background-color: #7e4599;
+  position: fixed;
+  top: 70%;
+  left: 1300px;
+}
+.navbar {
+  position: relative;
+  background-color: #150e1c;
+  height: 60px;
+  width: 80%;
+  margin: 70px auto 0; /* Center the navigation horizontally using auto margin */
+  border: 1px solid #4611DB;
+  box-shadow: 0 0 4px #4611DB;
+  border-radius: 1rem;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-components {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  text-align: center;
+  padding-left: 20px;
+  text-align: center; /* Center the text */
+}
+
+.navigators {
+  /* align-items: center; */
+  display: flex; /* Add display: flex to the .navigators class */
+}
+
+.signin-button {
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  background-color: #B89FFF;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo{
+  color: white;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-frame {
+  background-color: #352c2c;
+  border-radius: 1rem;
+  height: 500px;
+  width: 400px;
+  margin-top: 70px;
+  position: relative;
+  border: 1px solid #4611DB;
+  box-shadow: 0 0 4px #4611DB;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-redirect {
+  color: rgb(223, 223, 223);
+  margin: 10px auto;
+  text-align: center;
+}
+
+.signup-welcome {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.signup-text {
+  color: rgb(223, 223, 223);
+  margin: 0px;
+  margin-top: 5px;
+  align-self: center;
+}
+
+.form-container {
+  width: 80%;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.form-element {
+  color: white;
+  margin: 2px 0;
+  margin-top: 15px;
+}
+
+.form-element-input {
+  padding: 8px;
+  width: 95%;
+  border-radius: 0.4rem;
+  background-color: #433C4F;
+  border: none;
+  outline: none;
+}
+
+.forgot-password{
+  color: rgb(223, 223, 223);
+  margin-top: 3px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  font-size: x-small;
+}
+
+.login-button {
+  padding: 10px;
+  width: 75%;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: #09060c99;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.or-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #433C4F;
+  margin: 0 10px;
+}
+
+.google-login{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 80%;
+  height: 7%;
+  border-radius: 1rem;
+  background-color: #433C4F;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 22%;
+}
+
+.google-login>* {
+  margin-right: 8px;
+}
+.google-login svg {
+  width: 20px;
+  height: 20px;
+}
+
+/******************* Footer ***************/
+
+.footer {
+  display: flex;
+  background-color: #17151F;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.footer-page-list{
+  display: flex;
+  margin: 20px;
+  margin-right: 150px;
+}
+
+.footer-page-list-name{
+  list-style: none;
+  margin: 20px 40px;
+  font-size: 20px;
+}
+
+.footer-second-column, .footer-third-column{
+  margin: 20px;
+}
+
+.follow-us-heading, .contact-us-heading{
+  margin: 20px;
+  font-size: 30px;
+}
+
+.social-media-container, .contact-us-container{
+  display: flex;
+  margin: 0 20px;
+}
+
+.social-media-icon, .contact-us-icon{
+  width: 20px;
+}
+
+.social-media-name, .contact-us-name{
+  margin: 10px 20px;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+  background-color: #17151F;
+}
